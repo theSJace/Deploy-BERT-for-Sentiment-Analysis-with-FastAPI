@@ -9,6 +9,5 @@
     ],
     "editor.codeActionsOnSave": {
         "source.organizeImports": true
-    },
-    "python.pythonPath": "/home/venelin/.local/share/virtualenvs/deploy-bert-nVc6J_EC/bin/python"
+    }
 }
