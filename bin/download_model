@@ -1,7 +1,12 @@
 #!/usr/bin/env python
+import os
+
 import gdown
 
+if not os.path.exists('assets'):
+    os.makedirs('assets')
+
 gdown.download(
-    "https://drive.google.com/uc?id=1DkW-fEareI71w-ejIo4Jejj0Cx1I0jc8",
+    "https://drive.google.com/uc?id=1QDKRQuYX3cjHAp4Pqkzw0LRpVg0T-0vT",
     "assets/model_state_dict.bin",
 )
